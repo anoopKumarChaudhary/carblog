@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
           Get In Touch
         </motion.h1>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          We'd love to hear from you. Whether you have a question, feedback, or
+          Wed love to hear from you. Whether you have a question, feedback, or
           just want to say hello — drop us a message below!
         </p>
 
