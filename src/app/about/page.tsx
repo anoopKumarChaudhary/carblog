@@ -37,10 +37,10 @@ const About: React.FC = () => {
             </h2>
             <p className="leading-relaxed text-gray-300">
               CarVerse was born out of a passion for automobiles and a desire to
-              help everyday drivers make smarter decisions. Whether you're
-              buying your first EV or researching which SUV fits your family
-              best, we aim to deliver honest reviews, helpful tips, and
-              insightful comparisons.
+              help everyday drivers make smarter decisions. Whether youre buying
+              your first EV or researching which SUV fits your family best, we
+              aim to deliver honest reviews, helpful tips, and insightful
+              comparisons.
             </p>
           </motion.div>
 
