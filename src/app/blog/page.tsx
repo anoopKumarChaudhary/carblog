@@ -1,5 +1,4 @@
 import React from "react";
-import CarBlogCard from "../components/infotenmentCard";
 import InfotainmentBlogCard from "../components/infotechBlogCard";
 import CarCard from "../components/CarCard";
 
