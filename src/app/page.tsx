@@ -1,17 +1,15 @@
 "use client";
 
-import Image from "next/image";
 import CarCard from "./components/CarCard";
 import { useEffect, useState } from "react";
 import { fetchCarPosts } from "./redux/carSlice";
-import { AppDispatch, RootState, store } from "./redux/store";
-import { Provider, useDispatch, useSelector } from "react-redux";
+import { AppDispatch, RootState } from "./redux/store";
+import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
 import NewTechnology from "./NewTechnology/page";
 import AllCategory from "./AllCategory/page";
 import TestimonialSection from "./Testimonial/page";
 import NewsletterSubscribe from "./footer/page";
-import CarBlogCard from "./components/infotenmentCard";
 
 export default function Home() {
   const dispatch = useDispatch<AppDispatch>();
